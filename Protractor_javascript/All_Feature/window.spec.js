@@ -2,7 +2,7 @@ const driver= require('Protractor');
 describe("windows testcase",()=>{
     
         beforeAll(async()=>{
-            await driver.browser.waitForAngularEnabled(false);
+            //await driver.browser.waitForAngularEnabled(false);
             await driver.browser.get("https://the-internet.herokuapp.com/windows");
        
            

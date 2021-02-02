@@ -1,6 +1,5 @@
 const driver= require('Protractor');
 describe("Dropdown validation",()=>{
-   
     it('Select the dropdown ',async()=>{
         await driver.browser.get("https://play.letcode.in/dropdown");
        await driver.browser.manage().window().maximize();

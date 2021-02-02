@@ -8,7 +8,7 @@ exports.config = {
     //'dropdown.js'
     //'alert.spec.js',
     //'frames.spec.js',
-    //'window.spec.js'
+    'window.spec.js'
   ],
     SELENIUM_PROMISE_MANAGER: false
     
